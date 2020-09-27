@@ -2,7 +2,7 @@
 Feature: Automate Signup and SendMessage fucntionality
 
 @Signup
-Scenario Outline: Register a user new user at elearningm1
+Scenario Outline: Register a user new user at elearningm1 and send Message from his/her account
 Given User has launched elearn url: "http://elearningm1.upskills.in/"
 When User click on SignUp link
 Then User should land on Registration page
